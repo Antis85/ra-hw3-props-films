@@ -1,12 +1,7 @@
 import './App.css';
 import Stars from './components/Stars';
-// import Stargazer from './components/Stargazer';
 
 export default function App() {
-  // const counts = [
-  //   -1, 0, 1, 2, 3, 4, 5, 6, true, false, '', ' ', 'count'
-  // ];  
-  // return <Stargazer counts={counts} />;
   return (
     <>
       <Stars count={-1} />
